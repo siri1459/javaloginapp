@@ -1,6 +1,8 @@
 #!groovy
 pipeline{
-    agent any
+    agent {
+        label 'build'
+    }
 //    tools {
 //        maven "Maven"
 //    }
